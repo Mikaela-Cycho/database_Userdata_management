@@ -1,8 +1,23 @@
-github link:
-https://github.com/Mikaela-Cycho/3005DatabaseA3/tree/main
+# User Management CLI Tool
 
+A lightweight **command-line interface (CLI)** tool built with **Python** and **PostgreSQL** for managing user records.  
+Supports **Add**, **Delete**, and **Update** operations with direct database synchronization.
 
-!!!Read the README file on the page first please!!!
+## Features
+- Command-line interface with simple menu options
+- PostgreSQL database connection
+- Full CRUD support:
+  - Add new users
+  - Update existing user details
+  - Delete user records
+- Ensures data consistency with transactions
 
-Name:Yujia Duan
-Student No.: 101156159
+## Tech Stack
+- **Language:** Python
+- **Database:** PostgreSQL
+- **Libraries:** psycopg2
+
+## Setup
+1. Install dependencies:
+   ```bash
+   pip install psycopg2
